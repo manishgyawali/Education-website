@@ -2,7 +2,7 @@ import React from 'react'
 
 const Header = () => {
   return (
-    <div className='flex justify-between bg-gray-400 h-20 text-white '>
+    <div className='flex justify-between bg-gray-300 h-20 text-white '>
       <div className='flex justify-center items-center'>
         <ul className='flex gap-6 '>
           <li>Home</li>
@@ -14,7 +14,7 @@ const Header = () => {
           <li>Contact</li>
         </ul>
       </div>
-      <div className='flex justify-center items-center bg-customgreen'>
+      <div className='flex justify-center items-center bg-customgreen clip-polygon w-[170px] '>
         <h2 >GET CERTIFICATE</h2>
       </div>
     </div>
