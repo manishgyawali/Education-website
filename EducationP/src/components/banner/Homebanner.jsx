@@ -3,7 +3,7 @@ import React from 'react'
 const Homebanner = () => {
   return (
   
-<div className='py-24 bg-bgmain'>
+<div className='py-24 bg-bgmain text-white'>
     <div className=''>
         <h3>WELCOME TO ACADEMIA</h3>
         <h1 className='font-bold text-4xl'>Best Online Education Expertise</h1>
