@@ -6,7 +6,7 @@ import Header from './components/common/header/nav'
 import Footer from './components/common/footer/Footer'
 import Head from './components/common/header/Head'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import Footerlast from './components/common/footerlast'
+import Footerlast from './components/common/footer/footerlast'
 import Homebanner from './components/banner/Homebanner'
 
 

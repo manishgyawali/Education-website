@@ -14,7 +14,7 @@ const Header = () => {
           <li>Contact</li>
         </ul>
       </div>
-      <div className='flex justify-center items-center bg-customgreen clip-polygon w-[170px] '>
+      <div className='flex justify-center items-center bg-customgreen clip-polygon w-[250px] '>
         <h2 >GET CERTIFICATE</h2>
       </div>
     </div>
