@@ -7,6 +7,7 @@ export default {
   theme: {
     extend: {
       colors:{
+        mainbg : '#F6F6F6',
         customgreen: '#1eb2a6',
         bgwhite: 'rgba(238,238,238,255)',
         ftpara: '#95a8b3',

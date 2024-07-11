@@ -10,6 +10,7 @@ import Footerlast from './components/common/footer/footerlast'
 import Homebanner from './components/banner/Homebanner'
 import AllCourse from './components/AllCourses/AllCourse'
 import Newsletter from './components/newsletter/Newsletter'
+import Pricing from './components/pricing&Packages/pricing'
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
 <Header/>
 <Homebanner/>
 <AllCourse/>
+<Pricing/>
 <Newsletter/>
 <Footer/>
 <Footerlast/>
