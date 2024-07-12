@@ -2,7 +2,7 @@ import React from "react";
 import { FaTelegramPlane } from "react-icons/fa";
 const Newsletter = () => {
   return (
-    <div className="text-white bg-customgreen flex justify-evenly p-20">
+    <div className="text-white bg-customgreen flex justify-evenly p-20 mt-16">
       <div >
         <h1 className="text-3xl font-semibold ">Newsletter - Stay tune and get the latest update</h1>
         <h3>Far far away, behind the word mountains</h3>

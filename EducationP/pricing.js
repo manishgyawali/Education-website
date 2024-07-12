@@ -1,9 +1,9 @@
+
 export const pricePackagedata = [
     {
         pname: "BASIC PLAN",
         price: "49K",
         description : "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
-        
     },
     {
         pname: "BEGINNER PLAN",
