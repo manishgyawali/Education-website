@@ -17,7 +17,6 @@ const Pricing = () => {
             <p key={i}  className="text-ftpara mt-11" >{val.description}</p>
             <button className="bg-white text-customgreen border border-customgreen px-4 py-1 mt-12 text-semibold rounded hover:bg-customgreen duration-500">
             Get Started
-
             
           </button>
           </div>
