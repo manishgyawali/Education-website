@@ -6,12 +6,15 @@ export default {
   ],
   theme: {
     extend: {
+      height:{
+        100:'38rem'
+      },
       colors:{
         mainbg : '#F6F6F6',
         customgreen: '#1eb2a6',
         bgwhite: 'rgba(238,238,238,255)',
         ftpara: '#95a8b3',
-        bgmain: '#A8CBD1',
+        bgmain: '#80ABB2',
         bgfooter : '#E9E9E9',
         navbgcolor : 'rgba(255,255,255,0.2)'
       },

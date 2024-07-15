@@ -11,25 +11,36 @@ import Homebanner from './components/banner/Homebanner'
 import AllCourse from './components/AllCourses/AllCourse'
 import Newsletter from './components/newsletter/Newsletter'
 import Pricing from './components/pricing&Packages/pricing'
+import Blog from './components/Blog/Blog'
 
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
-<>
+<div className='relative'>
 
+<div className='relative z-10'>
 <Head/>
 <Header/>
+</div>
+
 <Homebanner/>
+<div className='w-10/12 mt-96 pt-20 grid gap-14 mx-auto'>
 <AllCourse/>
 <Pricing/>
+<Blog/>
+</div>
 <Newsletter/>
+<div  className='w-10/12  grid gap-14 mx-auto'>
 <Footer/>
+
+</div>
 <Footerlast/>
-</>
+</div>
   
   )
 }
 
 export default App
+ 

@@ -2,7 +2,7 @@ import React from 'react'
 
 const Header = () => {
   return (
-    <div className='flex justify-between bg-gray-300 h-20 text-white '>
+    <div className='flex justify-between bg-white bg-opacity-25 pl-4   h-20 text-white '>
       <div className='flex justify-center items-center'>
         <ul className='flex gap-12 '>
           <li>Home</li>
