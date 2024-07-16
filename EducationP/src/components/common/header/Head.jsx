@@ -10,7 +10,7 @@ const Head = () => {
     <div>
       <div className="flex justify-between items-center w-10/12 mx-auto  text-white py-4">
         <div>
-          <h1 className="font-bold text-xl cursor-pointer hover:text-customgreen duration-500 ">
+          <h1 className="font-bold text-3xl cursor-pointer hover:text-customgreen duration-500 ">
             ACADEMIA
           </h1>
           <h3 className="text-sm font-medium cursor-pointer">
@@ -38,7 +38,7 @@ const Head = () => {
           </div>
         </div>
 
-        <div className="flex gap-4">
+        <div className="flex gap-4 cursor-pointer ">
           <FaFacebookF className="border rounded-full text-xl  text-bgmain bg-white bg-opacity-70 h-10 w-10 p-2 " />
           <CiTwitter className="border rounded-full text-xl  text-bgmain bg-white bg-opacity-70 h-10 w-10 p-2 " />
           <FaInstagram className="border rounded-full text-xl  text-bgmain bg-white bg-opacity-70 h-10 w-10 p-2 " />

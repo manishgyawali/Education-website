@@ -18,11 +18,11 @@ const Homebanner = () => {
             </p>
         
           <div className="flex gap-4 items-center">
-            <button className="bg-customgreen px-5 h-fit flex items-center gap-1 py-3 font-medium rounded ">
+            <button className="bg-customgreen px-3 h-fit flex items-center gap-1 py-3 font-medium rounded ">
               GET STARTED NOW! <FaArrowRight className="text-sm" />
             </button>
 
-            <button className="bg-white flex h-fit items-center gap-1 text-customgreen px-5 py-3 font-medium rounded">
+            <button className="bg-white flex h-fit items-center gap-1 text-customgreen px-3 py-3 font-medium rounded">
               VIEW COURSE <FaArrowRight className="text-sm" />
             </button>
           </div>

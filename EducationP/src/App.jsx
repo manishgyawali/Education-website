@@ -30,12 +30,13 @@ function App() {
 <div className='w-11/12 mt-96  pt-20 mx-auto'>
 <LearningOnline/>
 </div>
-<div className='w-11/12 mt-96 pt-20 grid gap-14 mx-auto'>
-
+<div className='w-11/12 mt-40 pt-20 grid gap-14 mx-auto'>
 <AllCourse/>
 <Pricing/>
 <Blog/>
+
 </div>
+
 <Newsletter/>
 <div  className='w-10/12  grid gap-14 mx-auto'>
 <Footer/>

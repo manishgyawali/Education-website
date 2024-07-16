@@ -4,11 +4,26 @@ import { CiTwitter } from "react-icons/ci";
 import { FaInstagram } from "react-icons/fa";
 const Footer = () => {
   const footerData=[
-    {},
-    {},
-    {},
-    {},
-    {},
+    {
+
+      
+    },
+    {
+
+
+    },
+    {
+
+
+    },
+    {
+
+
+    },
+    {
+
+
+    },
 
   ]
   return (
@@ -37,10 +52,7 @@ const Footer = () => {
         )
       })
     }
-        {/* <li>Services</li>
-        <li>Courses</li>
-        <li>Blog</li>
-        <li>Contact Us</li> */}
+        
       </ul>
   </div>
     </div>
