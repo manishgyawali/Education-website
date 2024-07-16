@@ -1,6 +1,6 @@
 import React from "react";
 import { FaArrowRight } from "react-icons/fa6";
-import Background from "../../assets/homebanner.jpg";
+import Background from "../../assets/homebanner.png";
 const Homebanner = () => {
   return (
     <div className=" bg-bgmain h-100 text-white absolute w-full top-0">
@@ -28,7 +28,7 @@ const Homebanner = () => {
           </div>
           </div>
         <div
-          className="h-full bg-cover  w-full bg-red-500"
+          className="h-full bg-cover  w-full"
           style={{
             backgroundImage: `url(${Background})`,
           }}

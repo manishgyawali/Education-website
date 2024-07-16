@@ -19,7 +19,7 @@ export default {
         navbgcolor : 'rgba(255,255,255,0.2)'
       },
       backgroundImage : {
-        'home-banner' : "url('/Education-website/EducationP/src/components/banner/homebanner.jpg')"
+        'home-banner' : "url('/Education-website/EducationP/src/components/banner/homebanner.png')"
       },
       clipPath: {
         'custom-polygon': 'polygon(10% 0, 100% 0, 100% 100%, 0 100%)',

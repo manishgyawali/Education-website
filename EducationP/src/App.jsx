@@ -12,14 +12,14 @@ import AllCourse from './components/AllCourses/AllCourse'
 import Newsletter from './components/newsletter/Newsletter'
 import Pricing from './components/pricing&Packages/pricing'
 import Blog from './components/Blog/Blog'
-import LearningOnline from '../learningOnl/learningOnline'
+import LearningOnline from './components/learningOnl/learningOnline'
 
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
-<div className='relative'>
+<div className='relative bg-gray-100'>
 
 <div className='relative z-10'>
 <Head/>
@@ -27,8 +27,11 @@ function App() {
 </div>
 
 <Homebanner/>
-<div className='w-11/12 mt-96 pt-20 grid gap-14 mx-auto'>
+<div className='w-11/12 mt-96  pt-20 mx-auto'>
 <LearningOnline/>
+</div>
+<div className='w-11/12 mt-96 pt-20 grid gap-14 mx-auto'>
+
 <AllCourse/>
 <Pricing/>
 <Blog/>

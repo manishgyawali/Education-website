@@ -20,29 +20,29 @@ const Blog = () => {
             </div>
             <div className="flex gap-2 items-center w-10/12 mx-auto justify-between ">
               <div className="flex items-center gap-3 ">
-                <IoPerson />
-                <h4 key={i} className="text-xs font-bold">
+                <IoPerson className="text-customgreen"/>
+                <h4 key={i} className="text-xs font-bold text-ftpara">
                   {val.admin}
                 </h4>
               </div>
 
               <div className="flex items-center gap-3 ">
-                <MdDateRange />
-                <h4 key={i} className="text-xs font-bold">
+                <MdDateRange className="text-customgreen" />
+                <h4 key={i} className="text-xs font-bold text-ftpara">
                   {val.date}
                 </h4>
               </div>
 
               <div className="flex items-center gap-3 ">
-                <FaComment />{" "}
-                <h4 key={i} className="text-customgreen flex text-xs font-bold">
+                <FaComment className="text-customgreen" />{" "}
+                <h4 key={i} className="text-customgreen flex text-xs font-bold text-ftpara">
                   {val.comments}
                 </h4>
               </div>
             </div>
 
             <div className="w-10/12 mx-auto">
-              <h2 key={i} className="text-left group-hover:text-bgmain font-bold text-2xl">
+              <h2 key={i} className="text-left group-hover:text-customgreen font-semibold text-2xl">
                 {val.heading}
               </h2>
               <p key={i} className="text-ftpara text-left mt-6">
