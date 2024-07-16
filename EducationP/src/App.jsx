@@ -12,6 +12,7 @@ import AllCourse from './components/AllCourses/AllCourse'
 import Newsletter from './components/newsletter/Newsletter'
 import Pricing from './components/pricing&Packages/pricing'
 import Blog from './components/Blog/Blog'
+import LearningOnline from '../learningOnl/learningOnline'
 
 
 function App() {
@@ -26,7 +27,8 @@ function App() {
 </div>
 
 <Homebanner/>
-<div className='w-10/12 mt-96 pt-20 grid gap-14 mx-auto'>
+<div className='w-11/12 mt-96 pt-20 grid gap-14 mx-auto'>
+<LearningOnline/>
 <AllCourse/>
 <Pricing/>
 <Blog/>

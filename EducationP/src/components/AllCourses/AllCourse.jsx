@@ -4,7 +4,7 @@ const AllCourse = () => {
   return (
     <div className="text-center h-fit grid gap-10">
       <div>
-        <h3 className="text-customgreen text-xl">Courses</h3>
+        <h3 className="text-customgreen text-xl font-semibold">Courses</h3>
         <h1 className="text-4xl font-semibold">Browse Our Online Courses</h1>
       </div>
 

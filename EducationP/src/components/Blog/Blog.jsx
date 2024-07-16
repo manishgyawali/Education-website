@@ -1,50 +1,51 @@
-import React from "react";
+ import React from "react";
 import { blogData } from "../../../blog";
 import { IoPerson } from "react-icons/io5";
 import { MdDateRange } from "react-icons/md";
 import { FaComment } from "react-icons/fa";
-
+import Homelog from '../../assets/homebanner.jpg'
 const Blog = () => {
   return (
     <div className="text-center grid gap-10 ">
       <div className="  ">
-        <h3 className="text-customgreen text-xl">OUR PRICING</h3>
-        <h1 className="text-4xl font-semibold">Pricing & Packages</h1>
+        <h3 className="text-customgreen text-xl font-semibold">OUR BLOG</h3>
+        <h1 className="text-4xl font-semibold">Recent From Blog</h1>
       </div>
 
-      <div className=" flex  border gap-4     ">
+      <div className=" grid grid-cols-3  border gap-6     ">
         {blogData.map((val, i) => (
-          <div className="bg-white shadow-lg py-7  ">
-            <div className="flex">
-             <div className="">
-             <IoPerson />
-              <h4 key={i} className="text-sm font-bold">
-                {val.admin}
-              </h4>
-             </div>
-
-
-            
-              <div  className="">
-              <MdDateRange />
-              <h4 key={i} className="text-sm font-bold">
-                {val.date}
-              </h4>
+          <div className="bg-white group shadow-lg pb-6 flex flex-col gap-6  ">
+            <div className="h-72 w-full overflow-clip bg-gray-300">
+              <img src={val.image} className="h-full group-hover:scale-125 transition-all duration-1000 delay-100 ease-in-out object-left-top w-full object-cover" />
+            </div>
+            <div className="flex gap-2 items-center w-10/12 mx-auto justify-between ">
+              <div className="flex items-center gap-3 ">
+                <IoPerson />
+                <h4 key={i} className="text-xs font-bold">
+                  {val.admin}
+                </h4>
               </div>
 
-              <div  className="">
-          <FaComment />{" "}
-              <h4 key={i} className="text-customgreen text-sm font-bold">
-                {val.comments}
-              </h4>
+              <div className="flex items-center gap-3 ">
+                <MdDateRange />
+                <h4 key={i} className="text-xs font-bold">
+                  {val.date}
+                </h4>
+              </div>
+
+              <div className="flex items-center gap-3 ">
+                <FaComment />{" "}
+                <h4 key={i} className="text-customgreen flex text-xs font-bold">
+                  {val.comments}
+                </h4>
               </div>
             </div>
 
-            <div className="mt-8">
-              <h2 key={i} className=" text-2xl">
+            <div className="w-10/12 mx-auto">
+              <h2 key={i} className="text-left group-hover:text-bgmain font-bold text-2xl">
                 {val.heading}
               </h2>
-              <p key={i} className="text-ftpara mt-6">
+              <p key={i} className="text-ftpara text-left mt-6">
                 {val.parag}
               </p>
             </div>

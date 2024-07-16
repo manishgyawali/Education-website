@@ -32,7 +32,7 @@ const Footer = () => {
     {
       footerData.map((val,i)=>{
         return(
-          <li>icon About Us</li>
+          <li> About Us</li>
 
         )
       })
