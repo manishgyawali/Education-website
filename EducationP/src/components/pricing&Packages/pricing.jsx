@@ -11,7 +11,7 @@ const Pricing = () => {
 
     <div className=" flex  border gap-4 ">
     {pricePackagedata.map((val, i) => (
-          <div className="bg-white shadow-lg py-7 px-4 group ">
+          <div className="bg-white shadow-lg py-9 px-4 group ">
             <h1 key={i} className="text-sm font-medium text-black mt-6  ">{val.pname}</h1>
             <h3 key={i}  className="text-customgreen text-5xl font-bold mt-3" >{val.price}</h3>
             <p key={i}  className="text-ftpara mt-11" >{val.description}</p>
