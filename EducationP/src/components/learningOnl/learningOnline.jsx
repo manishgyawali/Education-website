@@ -3,6 +3,7 @@ import { onlineLearnData } from "../../../onlineLearning";
 import Learningbg from "../../assets/learning.jpg";
 import learningicon from "../../assets/online-learning.png"
 
+
 const LearningOnline = () => {
   return (
     <div className="grid grid-cols-2  h-fit justify-between w-11/12  mx-auto gap-10 ">

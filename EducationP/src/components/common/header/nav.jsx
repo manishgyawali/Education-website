@@ -1,4 +1,5 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom'
 
 const Header = () => {
   return (
@@ -7,7 +8,7 @@ const Header = () => {
         <ul className='flex gap-12 cursor-pointer '>
           <li>Home</li>
           <li>All Courses</li>
-          <li>About</li>
+          <NavLink to={'/about'} className='cursor-pointer'>About</NavLink>
           <li>Team</li>
           <li>Pricing</li>
           <li>Journal</li>
