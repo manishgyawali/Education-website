@@ -1,8 +1,11 @@
 import React from 'react'
+import LearningOnline from '../learningOnl/learningOnline'
 
 const About = () => {
   return (
-    <div className=''>About</div>
+    <div className=''>
+      <LearningOnline/>
+    </div>
   )
 }
 

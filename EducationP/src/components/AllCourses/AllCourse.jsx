@@ -1,5 +1,5 @@
 import React from "react";
-import { coursecard } from "../../../../coursesdata";
+import { coursecard } from "./coursesdata";
 const AllCourse = () => {
   return (
     <div className="text-center h-fit grid gap-10">
@@ -12,7 +12,7 @@ const AllCourse = () => {
         {coursecard.map((val, i) => (
           <div className="bg-white hover:bg-customgreen cursor-pointer group flex py-8 px-6 flex-col gap-5 items-center justify-center  duration-500 shadow-md ">
             <div className="h-16 w-16 bg-mainbg">
-              <img src={val.image} alt="" />
+              <img src={val.image} alt="image" />
             </div>
             <h1 key={i} className="text-md group-hover:text-white font-semibold text-black ">{val.coursename}</h1>
             <h3 key={i}  className="text-customgreen group-hover:text-white" >{val.numOfCourse}</h3>

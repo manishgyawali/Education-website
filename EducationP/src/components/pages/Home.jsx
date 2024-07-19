@@ -14,11 +14,8 @@ const Home = () => {
  
 
   return (
-    <div className='relative bg-gray-100'>
-    <div className='relative z-10'>
-    <Head/>
-    <Header/>
-    </div>
+    <div className=''>
+
     <Homebanner/>
     <div className='w-11/12 mt-96  pt-20 mx-auto'>
     <LearningOnline/>
@@ -32,11 +29,7 @@ const Home = () => {
     
     </div>
     
-    <Newsletter/>
-    <div  className='w-10/12  grid gap-14 mx-auto'>
-    <Footer/>
-    </div>
-    <Footerlast/>
+    
     </div>
 
       )

@@ -1,8 +1,10 @@
 import React from 'react'
-
+ 
 const Allcourse = () => {
   return (
-    <div>allcourse</div>
+    <div>
+    
+    </div>
   )
 }
 

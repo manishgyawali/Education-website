@@ -22,7 +22,7 @@ const LearningOnline = () => {
         <div className="flex flex-col gap-1 mt-10  group">
           {onlineLearnData.map((val, i) => (
             <div className="flex gap-3 h-fit rounded-md bg-white shadow-sm p-6  hover:bg-customgreen text-white  duration-200">
-              <div className="h-20 w-20 flex items-center justify-center bg-gray-200">
+              <div className="h-32 w-32 flex items-center justify-center ">
                 <img src={val.icon} alt="icons"></img>
               </div>
               <div className="flex flex-col h-fit  gap-4">
