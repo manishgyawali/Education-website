@@ -19,7 +19,8 @@ export const coursecard = [
      {
         id: 4,
         coursename: "History & Archeologic",
-        numOfCourse: "25 Courses"
+        numOfCourse: "25 Courses",
+        image: Image1
      },
 
      {
@@ -35,7 +36,8 @@ export const coursecard = [
      {
         id: 7,
         coursename: "Health & Fitness",
-        numOfCourse: "25 Courses"
+        numOfCourse: "25 Courses",
+        image: Image1
      },
      {
          id: 8,
@@ -45,7 +47,8 @@ export const coursecard = [
       {
          id: 9,
          coursename: "  Graphic Design",
-         numOfCourse: "25 Courses"
+         numOfCourse: "25 Courses",
+         image: Image1
       },
       {
          id: 10,
@@ -60,6 +63,7 @@ export const coursecard = [
       {
          id: 12,
          coursename: "Web Management",
-         numOfCourse: "25 Courses"
+         numOfCourse: "25 Courses",
+         image: Image1
       },
 ]
