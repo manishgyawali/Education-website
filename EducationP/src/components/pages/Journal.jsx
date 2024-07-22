@@ -6,7 +6,7 @@ const Journal = () => {
   return (
     <div>
      < Banner/>
-    <div className='mt-96'>
+    <div className='mt-96 pt-40'>
     <Blog/>
     </div>
     </div>

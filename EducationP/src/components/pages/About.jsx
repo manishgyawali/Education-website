@@ -7,7 +7,7 @@ const About = () => {
     <div className="">
       <Banner />
 
-      <div className="mt-96">
+      <div className="mt-96 pt-28">
         <LearningOnline/>
       </div>
     </div>
