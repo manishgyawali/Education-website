@@ -1,8 +1,11 @@
 import React from 'react'
+import Banner from '../UI/Banner'
 
 const Pricing = () => {
   return (
-    <div>pricing</div>
+    <div>
+      <Banner />
+    </div>
   )
 }
 

@@ -6,7 +6,7 @@ import { FaComment } from "react-icons/fa";
 import Homelog from '../../assets/homebanner.jpg'
 const Blog = () => {
   return (
-    <div className="text-center grid gap-10 ">
+    <div className="text-center grid gap-10 w-11/12 mx-auto">
       <div className="  ">
         <h3 className="text-customgreen text-xl font-semibold">OUR BLOG</h3>
         <h1 className="text-4xl font-semibold">Recent From Blog</h1>

@@ -1,8 +1,12 @@
 import React from 'react'
+import Banner from '../UI/Banner'
 
 const Team = () => {
   return (
-    <div>Team</div>
+    <div>
+      <Banner />
+      team
+    </div>
   )
 }
 

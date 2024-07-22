@@ -1,12 +1,17 @@
-import React from 'react'
-import LearningOnline from '../learningOnl/learningOnline'
+import React from "react";
+import LearningOnline from "../learningOnl/learningOnline";
+import Banner from "../UI/Banner";
 
 const About = () => {
   return (
-    <div className=''>
-      <LearningOnline/>
-    </div>
-  )
-}
+    <div className="">
+      <Banner />
 
-export default About
+      <div className="mt-96">
+        <LearningOnline/>
+      </div>
+    </div>
+  );
+};
+
+export default About;

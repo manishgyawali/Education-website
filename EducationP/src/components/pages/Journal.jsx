@@ -1,8 +1,15 @@
 import React from 'react'
+import Banner from './../UI/Banner';
+import Blog from '../Blog/Blog';
 
 const Journal = () => {
   return (
-    <div>Journal</div>
+    <div>
+     < Banner/>
+    <div className='mt-96'>
+    <Blog/>
+    </div>
+    </div>
   )
 }
 
