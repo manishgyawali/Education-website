@@ -8,6 +8,8 @@ const Allcourse = () => {
     <Banner />
     <Allcourse/>
 
+
+
     </div>
   )
 }
