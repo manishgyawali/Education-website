@@ -1,50 +1,36 @@
+import teamImmg from '../src/assets/team.jpg'
+import teamImg1 from '../src/assets/team1.jpg'
 export const teamData = [
     {
-        imageTeam : 'image',
+        imageTeam : teamImmg,
         nameTm : "Ph.D Adrian Molises",
-        jonTm : "DEVELOPER AND LEAD",
-        positionTm: "INSTRUCTER"
+        jonTm : "DEVELOPER AND LEAD INSTRUCTER",
+      
     },
     {
-        imageTeam : 'image',
+        imageTeam : teamImg1,
         nameTm : "Ph.D Adrian Molises",
-        jonTm : "DEVELOPER AND LEAD",
-        positionTm: "INSTRUCTER"
+        jonTm : "DEVELOPER AND LEAD INSTRUCTER",
     },
     {
-        imageTeam : 'image',
+        imageTeam : teamImmg,
         nameTm : "Ph.D Adrian Molises",
-        jonTm : "DEVELOPER AND LEAD",
-        positionTm: "INSTRUCTER"
+        jonTm : "DEVELOPER AND LEAD INSTRUCTER",
     },
     {
-        imageTeam : 'image',
+        imageTeam : teamImg1,
         nameTm : "Ph.D Adrian Molises",
-        jonTm : "DEVELOPER AND LEAD",
-        positionTm: "INSTRUCTER"
+        jonTm : "DEVELOPER AND LEAD INSTRUCTER",
     },
     {
-        imageTeam : 'image',
+        imageTeam :teamImmg,
         nameTm : "Ph.D Adrian Molises",
-        jonTm : "DEVELOPER AND LEAD",
-        positionTm: "INSTRUCTER"
+        jonTm : "DEVELOPER AND LEAD INSTRUCTER",
     },
     {
-        imageTeam : 'image',
+        imageTeam : teamImg1,
         nameTm : "Ph.D Adrian Molises",
-        jonTm : "DEVELOPER AND LEAD",
-        positionTm: "INSTRUCTER"
+        jonTm : "DEVELOPER AND LEAD INSTRUCTER",
     },
-    {
-        imageTeam : 'image',
-        nameTm : "Ph.D Adrian Molises",
-        jonTm : "DEVELOPER AND LEAD",
-        positionTm: "INSTRUCTER"
-    },
-    {
-        imageTeam : 'image',
-        nameTm : "Ph.D Adrian Molises",
-        jonTm : "DEVELOPER AND LEAD",
-        positionTm: "INSTRUCTER"
-    },
+
 ]

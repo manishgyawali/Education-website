@@ -9,6 +9,7 @@ import Blog from '../Blog/Blog'
 import Newsletter from '../newsletter/Newsletter'
 import Footer from '../common/footer/Footer'
 import Footerlast from '../common/footer/footerlast'
+import HBanner from '../horizontalbanner/hBanner'
 
 const Home = () => {
  
@@ -21,12 +22,12 @@ const Home = () => {
     <LearningOnline/>
     </div>
  
+    <HBanner/>
     
     <div className='w-11/12 mt-40 pt-20 grid gap-14 mx-auto'>
     <AllCourse/>
     <Pricing/>
     <Blog/>
-    
     </div>
     
     

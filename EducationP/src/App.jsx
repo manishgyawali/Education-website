@@ -33,7 +33,9 @@ function App() {
 
       </Routes>
       
-      <Newsletter/>
+    <div className="">
+    <Newsletter/>
+    </div>
     <div  className='w-10/12 mt-60  grid gap-14 mx-auto'>
     <Footer/>
     </div>

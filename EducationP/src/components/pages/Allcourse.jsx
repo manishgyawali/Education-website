@@ -6,7 +6,6 @@ const Allcourse = () => {
   return (
     <div>
     <Banner />
-    <Allcourse/>
 
 
 
