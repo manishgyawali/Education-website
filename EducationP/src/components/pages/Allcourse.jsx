@@ -4,8 +4,10 @@ import AllCourse from '../AllCourses/AllCourse'
  
 const Allcourse = () => {
   return (
-    <div>
-    <Banner />
+    <div >
+ <div>
+ <Banner />
+ </div>
 
 
 
