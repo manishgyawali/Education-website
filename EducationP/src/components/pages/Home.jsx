@@ -21,6 +21,7 @@ const Home = () => {
     <div className='w-11/12 mt-96  pt-20 mx-auto'>
     <LearningOnline/>
     </div>
+  
     <HBanner/>
     
     <div className='w-11/12 mt-40 pt-20 grid gap-14 mx-auto'>

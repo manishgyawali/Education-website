@@ -19,6 +19,7 @@ const AllCourse = () => {
           </div>
         ))}
       </div>
+      
     </div>
   );
 };
