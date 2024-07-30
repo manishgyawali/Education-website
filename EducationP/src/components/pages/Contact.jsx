@@ -8,6 +8,8 @@ const Contact = () => {
         <Banner />
       </div>
 
+
+
       <div className=" mt-96 py-40 flex w-10/12 mx-auto gap-10 items-center justify-center">
         <div className="  ">
        <img src={ContactImg} alt="image"  />
