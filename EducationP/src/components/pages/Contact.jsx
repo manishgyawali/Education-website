@@ -1,16 +1,16 @@
 import React from "react";
 import Banner from "../UI/Banner";
-import ContactImg from "../../assets/contact.jpg"
+import ContactImg from "../../assets/contact.jpg";
 const Contact = () => {
   return (
     <div>
       <div>
         <Banner />
       </div>
-      
+
       <div className=" mt-96 py-40 flex w-10/12 mx-auto gap-10 items-center justify-center">
         <div className="  ">
-       <img src={ContactImg} alt="image"  />
+          <img src={ContactImg} alt="image" />
         </div>
 
         <div className=" border border-white p-10 bg-white">
@@ -37,14 +37,15 @@ const Contact = () => {
             </div>
           </div>
 
-
-
-
           <div className="mt-10 grid gap-5 w-10/12  ">
-            <input  className=" border  p-3" type="text" placeholder="Name" />
-            <input  className=" border  p-3"  type="text" placeholder="Email" />
-            <input  className=" border  p-3"  type="text" placeholder="Subject" />
-            <input  className=" border  p-3"  type="text" placeholder="Create a message here" />
+            <input className=" border  p-3" type="text" placeholder="Name" />
+            <input className=" border  p-3" type="text" placeholder="Email" />
+            <input className=" border  p-3" type="text" placeholder="Subject" />
+            <input
+              className=" border  p-3"
+              type="text"
+              placeholder="Create a message here"
+            />
 
             <div>
               <button className="bg-customgreen text-white py-2 px-2 rounded text-sm font-semibold ">

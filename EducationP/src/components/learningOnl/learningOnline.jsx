@@ -1,8 +1,7 @@
 import React from "react";
 import { onlineLearnData } from "../../../onlineLearning";
 import Learningbg from "../../assets/learning.jpg";
-import learningicon from "../../assets/online-learning.png"
-
+// import learningicon from "../../assets/online-learning.png"
 
 const LearningOnline = () => {
   return (
@@ -11,7 +10,7 @@ const LearningOnline = () => {
         <img src={Learningbg } className="h-full  w-full object-cover" alt="learningphoto" />
       </div>
 
-      <div className=" justify-center gap-6 bg-bgwhite p-10 w-11/12">
+      <div className="  gap-6 flex justify-center flex-col">
         <div className="">
           <h3 className="font-semibold text-customgreen ">LEARN ANYTHING</h3>
           <h1 className="text-5xl font-semibold mt-4">
@@ -19,17 +18,22 @@ const LearningOnline = () => {
           </h1>
         </div>
 
-        <div className="flex flex-col gap-1 mt-10  group">
+        <div className="flex flex-col gap-4 mt-10  ">
           {onlineLearnData.map((val, i) => (
-            <div className="flex gap-3 h-fit rounded-md bg-white shadow-sm p-6 text-customgreen   ">
-              <div className="h-32 w-32 flex items-center justify-center ">
-                <img src={val.icon} alt="icons"></img>
+            <div key={i} className="flex gap-3 group h-fit rounded-md bg-white shadow-sm p-6
+             text-customgreen   ">
+              <div className="text-5xl group-hover:text-red-500 relative ">
+               <div className="absolute text-3xl -top-2 right-0 left-0 mx-auto">{val.icon}</div>
+               <div className=" mt-1">
+               {val.icontwo}
+               </div>
+
               </div>
-              <div className="flex flex-col h-fit ml-6  gap-5">
-                <h1 key={i} className="text-3xl font-semibold">
+              <div className="flex  flex-col h-fit ml-6  gap-5">
+                <h1 key={i} className="text-3xl group-hover:text-green-500 font-semibold">
                   {val.title}
                 </h1>
-                <p key={i} className="">
+                <p key={i} className="group-hover:text-yellow-500">
                   {val.paragraph}
                 </p>
               </div>

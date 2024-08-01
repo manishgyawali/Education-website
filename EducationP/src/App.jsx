@@ -1,5 +1,3 @@
-import { useState } from "react";
-
 import "./App.css";
 import Home from "./components/pages/Home";
 import Head from "./components/common/header/Head";
@@ -13,7 +11,7 @@ import About from "./components/pages/About";
 import Newsletter from "./components/newsletter/Newsletter";
 import Contact from "./components/pages/Contact";
 import Pricing from "./components/pages/Pricing";
-import Journal from './components/pages/Journal';
+import Journal from "./components/pages/Journal";
 
 function App() {
   return (
@@ -30,16 +28,15 @@ function App() {
         <Route path="/pricing" element={<Pricing />} />
         <Route path="/journal" element={<Journal />} />
         <Route path="/contact" element={<Contact />} />
-
       </Routes>
-      
-    <div className="">
-    <Newsletter/>
-    </div>
-    <div  className='w-10/12 mt-60  grid gap-14 mx-auto'>
-    <Footer/>
-    </div>
-    <Footerlast/>
+
+      <div className="">
+        <Newsletter />
+      </div>
+      <div className="w-10/12 mt-60  grid gap-14 mx-auto">
+        <Footer />
+      </div>
+      <Footerlast />
     </div>
   );
 }

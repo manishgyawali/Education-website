@@ -26,11 +26,11 @@ const Header = () => {
 
   return (
     <div
-      className={`flex justify-between
+      className={`flex justify-between fixed  left-0 right-0  transition-all duration-1000 delay-75 ease-in-out
     ${
       Fix
-        ? "fixed top-5 left-0 text-black shadow-lg bg-opacity-100 right-0 "
-        : "relative text-white bg-opacity-25"
+        ? " text-black top-0 shadow-lg translate-y-0  bg-opacity-100 "
+        : " text-white top-5 -translate-y-96 bg-opacity-25"
     }
      bg-white  pl-4 h-20  w-11/12 mx-auto`}
     >
