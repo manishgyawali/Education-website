@@ -37,6 +37,9 @@ const Contact = () => {
             </div>
           </div>
 
+
+
+
           <div className="mt-10 grid gap-5 w-10/12  ">
             <input  className=" border  p-3" type="text" placeholder="Name" />
             <input  className=" border  p-3"  type="text" placeholder="Email" />
