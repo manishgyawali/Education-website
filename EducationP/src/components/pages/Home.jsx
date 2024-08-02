@@ -6,6 +6,7 @@ import Pricing from "../pricing&Packages/pricing";
 import Blog from "../Blog/Blog";
 import HBanner from "../horizontalbanner/hBanner";
 import Testimonial from "../Testimonial/Testimonial";
+import CourseSlider from "../OnlinercourseSlider/CourseSlider";
 
 const Home = () => {
   
@@ -14,6 +15,7 @@ const Home = () => {
       <Homebanner />
       <div className="w- mt-96  pt-20 mx-auto">
         <LearningOnline />
+        <CourseSlider/>
       </div>
     
         <Testimonial />

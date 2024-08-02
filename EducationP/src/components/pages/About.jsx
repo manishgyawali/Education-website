@@ -1,6 +1,7 @@
 import React from "react";
 import LearningOnline from "../learningOnl/learningOnline";
 import Banner from "../UI/Banner";
+import Testimonial from "../Testimonial/Testimonial";
 
 const About = () => {
   return (
@@ -9,6 +10,7 @@ const About = () => {
 
       <div className="mt-96 pt-28">
         <LearningOnline/>
+        <Testimonial/>
       </div>
     </div>
   );
