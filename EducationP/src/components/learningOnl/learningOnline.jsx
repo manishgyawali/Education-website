@@ -21,19 +21,19 @@ const LearningOnline = () => {
         <div className="flex flex-col gap-4 mt-10  ">
           {onlineLearnData.map((val, i) => (
             <div key={i} className="flex gap-3 group h-fit rounded-md bg-white shadow-sm p-6
-             text-customgreen   ">
-              <div className="text-5xl group-hover:text-red-500 relative ">
-               <div className="absolute text-3xl -top-2 right-0 left-0 mx-auto">{val.icon}</div>
-               <div className=" mt-1">
+             text-customgreen   hover:bg-customgreen">
+              <div className="text-5xl group-hover: relative ">
+               <div className="absolute text-3xl -top-2 right-0 left-0 mx-auto group-hover:text-white">{val.icon}</div>
+               <div className=" mt-1 group-hover:text-white ">
                {val.icontwo}
                </div>
 
               </div>
               <div className="flex  flex-col h-fit ml-6  gap-5">
-                <h1 key={i} className="text-3xl group-hover:text-green-500 font-semibold">
+                <h1 key={i} className="text-3xl group-hover:text-white font-semibold">
                   {val.title}
                 </h1>
-                <p key={i} className="group-hover:text-yellow-500">
+                <p key={i} className="group-hover:text-white">
                   {val.paragraph}
                 </p>
               </div>

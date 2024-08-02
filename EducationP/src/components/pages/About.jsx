@@ -5,7 +5,7 @@ import Banner from "../UI/Banner";
 const About = () => {
   return (
     <div className="">
-      <Banner />
+      <Banner title={"About us"} />
 
       <div className="mt-96 pt-28">
         <LearningOnline/>
